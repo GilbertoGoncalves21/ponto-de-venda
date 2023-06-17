@@ -1,6 +1,6 @@
-@import "./config-scss/variables.scss";
+@import "./config-scss/variable.scss";
 @import "./config-scss/reset.scss";
-@import "./config-scss/rem-calc.scss";
+@import "./config-scss/remCalc.scss";
 
 main {
     max-width: remCalc(600);
@@ -8,3 +8,5 @@ main {
     padding: 0 20px;
     margin: 0 auto;
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
